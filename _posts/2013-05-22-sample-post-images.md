@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post1
 title: "A Post with Images"
 description: "Examples and code for displaying images in posts."
 tags: [sample post, images, test]

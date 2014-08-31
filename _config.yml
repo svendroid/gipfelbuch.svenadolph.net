@@ -1,12 +1,12 @@
-title:            Site Title
-description:      Describe your website here.
+title:            Sven's Notes
+description:      Sven writes stuff
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
-url:              http://your-website.com
+#url:              http://your-website.com
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Sven
   avatar:         avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
   email:          you@email.com
@@ -38,7 +38,7 @@ links:
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/Berlin
 future:      true
 pygments:    true
 markdown:    kramdown
