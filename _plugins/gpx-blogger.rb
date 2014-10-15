@@ -22,7 +22,7 @@ module GPXBlogger
                 post.data['geojson'] = "#{site.baseurl}routes/#{name}.json"
                 post.data['geoimagedir'] = "#{site.baseurl}images/#{name}/map/"
                 post.data['mapid'] = name.tr('-','')
-                result = `python #{site.source}/_plugins/hike-blogger/generateGeoJsonFromGPX.py -i #{imageDir} -o #{output} #{input}`
+                result = `python #{site.source}/_plugins/geoJsonGenerator/generateGeoJsonFromGPX.py -i #{imageDir} -o #{output} #{input}`
                 puts result
 
                 site.static_files << Jekyll::StaticFile.new(site, site.source, '/routes/', "#{name}.json") #mark generated json-file as changed so it is copied to the site by jekyll
