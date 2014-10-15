@@ -1,15 +1,15 @@
-title:            Sven's Notes
-description:      Sven writes stuff
+title:            Svens Gipfelbuch
+description:      Wanderroutensammlung
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://your-website.com
+url:              http://gipfelbuch.svenadolph.net
 
 # Owner/author information
 owner:
-  name:           Sven
+  name:           Sven Adolph
   avatar:         avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  email:          mail@svenadolph.net
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
@@ -63,5 +63,14 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
+# glynn settings - publishes _site to ftp server
+ftp_host: 'svenadolph.net'
+ftp_dir: '/' #make sure to use right user
+ftp_passive: false
+# optional
+#ftp_port: 21                  # default 21
+#ftp_username: 'your_user'     # default read from stdin
+#ftp_password: 'your_ftp_pass' # default read from stdin
+# glynn - end
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "*.gpx"]

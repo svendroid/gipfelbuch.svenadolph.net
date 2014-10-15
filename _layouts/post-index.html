@@ -37,7 +37,15 @@
   </footer>
 </div><!-- /.footer-wrapper -->
 
-{% include scripts.html %}          
+{% include scripts.html %}
+{% include map-scripts.html %}
+
+<script type="text/javascript">
+    {% for post in paginator.posts %}
+      console.log('{{post.mapid}}');
+      new GPXMap('{{ post.mapid }}','{{ post.geojson }}','{{ post.geoimagedir }}').show();
+    {% endfor %}
+</script>
 
 </body>
 </html>

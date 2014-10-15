@@ -62,3 +62,7 @@
 {% unless background contains 'http://' or background contains 'https://' %}{% capture background %}{{ site.url }}/images/{{ background }}{% endcapture %}{% endunless %}
 <style type="text/css">body {background-image:url({{ background }});}</style>
 {% endif %}
+{{% if page.gpx %}}
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css' rel='stylesheet' />
+<link rel="stylesheet" href="{{ site.url }}/assets/css/gpx-blogger.css">
+{{% endif %}}
