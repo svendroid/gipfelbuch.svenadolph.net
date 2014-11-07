@@ -2,18 +2,18 @@ title:            Svens Gipfelbuch
 description:      Wanderroutensammlung
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
-url:              http://gipfelbuch.svenadolph.net
+#url:              http://gipfelbuch.svenadolph.net
 
 # Owner/author information
 owner:
-  name:           Sven Adolph
+  name:           Sven
   avatar:         avatar.jpg
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
   email:          mail@svenadolph.net
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
+  twitter: https://twitter.com/svendroid      
   facebook:       
-  github:         
+  github: https://github.com/svendroid       
   stackexchange:  
   linkedin:       
   instagram:      
@@ -30,12 +30,12 @@ bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
-links:
-  - title: Theme Setup
-    url: /theme-setup
-  - title: External Link
-    url: http://mademistakes.com
-    external: true
+#links:
+#  - title: Theme Setup
+#    url: /theme-setup
+#  - title: External Link
+#    url: http://mademistakes.com
+#    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Berlin
@@ -46,7 +46,7 @@ markdown:    kramdown
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
-# Amount of post to show on home page
+# Amount of posts to show on home page
 paginate: 5
 
 kramdown:
@@ -72,5 +72,6 @@ ftp_passive: false
 #ftp_username: 'your_user'     # default read from stdin
 #ftp_password: 'your_ftp_pass' # default read from stdin
 # glynn - end
+
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "*.gpx"]
