@@ -16,10 +16,10 @@ module GPXBlogger
                 output = "#{site.source}/routes/#{name}.json"
                 outputinfo = "#{site.source}/routes/#{name}-info.json"
 
-                puts "image dir: #{imageDir}"
-                puts "output: #{output}"
-                puts "input: #{input}"
-                puts "outputinfo: #{outputinfo}"
+                #puts "image dir: #{imageDir}"
+                #puts "output: #{output}"
+                #puts "input: #{input}"
+                #puts "outputinfo: #{outputinfo}"
 
                 post.data['geojson'] = "#{site.baseurl}/routes/#{name}.json"
                 post.data['geoimagedir'] = "#{site.baseurl}/images/#{name}/map/"
