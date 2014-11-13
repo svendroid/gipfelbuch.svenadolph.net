@@ -2,8 +2,9 @@
 
 Blog über meine Wanderungen.
 
-# Jekyll Theme
-Using the HPSTR Jekyll Theme (https://github.com/mmistakes/hpstr-jekyll-theme)
+# Setup
+
+* 'bundle install' - use bundler to install all needed gems
 
 #TODO:
 
@@ -16,3 +17,8 @@ Using the HPSTR Jekyll Theme (https://github.com/mmistakes/hpstr-jekyll-theme)
 * fullscreen image view
 * some kind of hybrid image map view
 * ...
+
+
+## Thanks
+
+Using the HPSTR Jekyll Theme (https://github.com/mmistakes/hpstr-jekyll-theme)

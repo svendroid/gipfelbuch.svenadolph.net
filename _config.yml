@@ -73,5 +73,21 @@ ftp_passive: false
 #ftp_password: 'your_ftp_pass' # default read from stdin
 # glynn - end
 
+
+mini_magick:
+    # make sure to use the same source and destination directory as in plugins/gpx-blogger.rb
+    mapimages:
+      source: _images_maps
+      destination: images
+      resize: "340x"
+      recursive: true
+      nameextension: "_thumb"
+    mapimages_large:
+      source: _images_maps
+      destination: images
+      resize: "1024x"
+      recursive: true
+
+
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "*.gpx"]

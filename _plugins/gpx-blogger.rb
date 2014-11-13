@@ -11,7 +11,7 @@ module GPXBlogger
 
                 name = post.name[0, post.name.length - 3] #remove file extension '.md'
 
-                imageDir = "#{site.source}/images/#{name}/map/"
+                imageDir = "#{site.source}/_images_maps/#{name}/map/"
                 input = "#{site.source}/routes/#{name}.gpx"
                 output = "#{site.source}/routes/#{name}.json"
                 outputinfo = "#{site.source}/routes/#{name}-info.json"
