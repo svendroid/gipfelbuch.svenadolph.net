@@ -3,8 +3,13 @@
 Blog über meine Wanderungen.
 
 # Setup
+* 'bundle install' - use bundler to install all needed gems defined in Gemfile
+* 'jekyll build'
 
-* 'bundle install' - use bundler to install all needed gems
+## Deploy to ftp server
+* change url in `_config.yml`
+* ftp settings in `ftp_configuration.yml`
+* execute `thor ftp:deploy`
 
 #TODO:
 
