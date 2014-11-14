@@ -2,7 +2,7 @@ title:            Svens Gipfelbuch
 description:      Wanderroutensammlung
 disqus_shortname: 
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://gipfelbuch.svenadolph.net
+url:              http://gipfelbuch.svenadolph.net
 
 # Owner/author information
 owner:
@@ -62,17 +62,6 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
-
-# glynn settings - publishes _site to ftp server
-ftp_host: 'svenadolph.net'
-ftp_dir: '/' #make sure to use right user
-ftp_passive: false
-# optional
-#ftp_port: 21                  # default 21
-#ftp_username: 'your_user'     # default read from stdin
-#ftp_password: 'your_ftp_pass' # default read from stdin
-# glynn - end
-
 
 mini_magick:
     # make sure to use the same source and destination directory as in plugins/gpx-blogger.rb

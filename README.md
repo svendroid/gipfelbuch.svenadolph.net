@@ -8,13 +8,14 @@ Blog über meine Wanderungen.
 
 ## Deploy to ftp server
 * change url in `_config.yml`
+* make sure lftp is installed - e.g download [here](http://rudix.org/packages/lftp.html)
 * ftp settings in `ftp_configuration.yml`
 * execute `thor ftp:deploy`
+* for more infos about thor see [thor getting started](https://github.com/erikhuda/thor/wiki/Getting-Started)
 
 #TODO:
 
 ## Bugs:
-* fix ftp upload via glynn or similiar
 * release script which commits _site to release branch
 
 ## Features:
