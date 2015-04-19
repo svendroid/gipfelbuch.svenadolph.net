@@ -13,6 +13,13 @@ Blog über meine Wanderungen.
 * execute `thor ftp:deploy`
 * for more infos about thor see [thor getting started](https://github.com/erikhuda/thor/wiki/Getting-Started)
 
+## Neuer Post
+* Neuen Post Erstellen: YYYY-MM-DD-titel
+* Dateiname wird für gpx-file & Bilderverzeichnis verwendet -> gleicher Name
+* `jekyll serve` - um alle zu überprüfen lokal
+* `jekyll build` - Seite in _site Ordner erstellen
+* `thor ftp:deploy` - um Seite auf ftp zu deployen
+
 #TODO:
 
 ## Bugs:
