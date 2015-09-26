@@ -18,7 +18,7 @@ Blog über meine Wanderungen.
 * Dateiname wird für gpx-file & Bilderverzeichnis verwendet -> gleicher Name
 * `jekyll serve` - um alle zu überprüfen lokal
 * `jekyll build` - Seite in \_site Ordner erstellen
-* `thor ftp:deploy` - um Seite auf ftp zu deployen
+* `thor ftp:deploy` - um \_site Verzeichnis auf ftp zu deployen
 
 # TODO:
 
